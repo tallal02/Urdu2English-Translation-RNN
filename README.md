@@ -32,13 +32,13 @@ This project demonstrates a custom approach to building and evaluating an attent
 
 During training, the model logs metrics at each epoch. For instance:
 
-```plaintext
-Epoch [1/50], Train Loss: 7.4014, Val Loss: 6.9863, Val BLEU: 0.00
-Epoch [2/50], Train Loss: 6.6392, Val Loss: 7.0377, Val BLEU: 0.00
-...
-Epoch [49/50], Train Loss: 0.7452, Val Loss: 9.4111, Val BLEU: 0.84
-Epoch [50/50], Train Loss: 0.7110, Val Loss: 9.3564, Val BLEU: 0.82
-'''
+  ```plaintext
+  Epoch [1/50], Train Loss: 7.4014, Val Loss: 6.9863, Val BLEU: 0.00
+  Epoch [2/50], Train Loss: 6.6392, Val Loss: 7.0377, Val BLEU: 0.00
+  ...
+  Epoch [49/50], Train Loss: 0.7452, Val Loss: 9.4111, Val BLEU: 0.84
+  Epoch [50/50], Train Loss: 0.7110, Val Loss: 9.3564, Val BLEU: 0.82
+ ```
 
 ## Clone the Repository
 ```bash
