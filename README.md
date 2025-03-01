@@ -23,7 +23,7 @@ This project demonstrates a custom approach to building and evaluating an attent
 - **Training:**  
   Train the model on the prepared training set. During training, the model logs key metrics such as loss and BLEU score for each epoch.
 - **Evaluation:**  
-  Assess the model’s performance on the validation and test sets using BLEU scores (calculated using Moses multi-bleu.perl or NLTK’s `corpus_bleu`).
+  Assess the model’s performance on the validation and test sets using BLEU scores (calculated using Moses multi-bleu.perl).
 
 ### Visualization and Analysis:
 - Visualize training and validation loss curves as well as BLEU score trends to gain insights into model performance and convergence behavior.
@@ -42,5 +42,5 @@ During training, the model logs metrics at each epoch. For instance:
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/Urdu-to-English-Translation.git
+git clone https://github.com/tallal02/Urdu-to-English-Translation.git
 cd Urdu-to-English-Translation
